@@ -84,7 +84,7 @@ modFit1 <- train(classe ~ ., data = train, method = "rf", trControl = fitControl
 modFit1$finalModel
 ```
 
-As we can see OOB estimation error rate is 5.55% so we can expect in sample error of around 5%
+As we can see OOB estimation error rate is 5.55% so we can expect out of sample error of around 5%
 
 ## Fit on Validation Set
 Just to make sure we fit the model to validation set agian.
